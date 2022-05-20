@@ -15,6 +15,14 @@ hr {
     border: 1px solid hsl(215, 32%, 27%);
 }
 
+span {
+    color: white;
+}
+
+.font-weight-300 {
+    font-weight: 300;
+}
+
 .container {
     height: 100vh;
     display: flex;
@@ -25,13 +33,10 @@ hr {
 
 .card {
     background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
     padding: 20px;
     border-radius: 20px;
-}
-
-#card-description {
-    color: hsl(215, 51%, 70%);
-    font-weight: 300;
+    max-width: 380px;
 }
 
 .card-img {
@@ -50,4 +55,13 @@ hr {
     display: flex;
     align-items: center;
     gap: 10px;
+}
+
+.price-wrapper p {
+    color: hsl(178, 100%, 50%);
+}
+
+.avatar {
+    border: 1px solid white;
+    border-radius: 50%;
 }

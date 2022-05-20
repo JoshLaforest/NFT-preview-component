@@ -11,6 +11,10 @@ h1 {
     font-size: 1.6em;
 }
 
+hr {
+    border: 1px solid hsl(215, 32%, 27%);
+}
+
 .container {
     height: 100vh;
     display: flex;
@@ -33,4 +37,17 @@ h1 {
 .card-img {
     width: 100%;
     border-radius: 10px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price-wrapper,
+.timer-wrapper,
+.avatar-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
